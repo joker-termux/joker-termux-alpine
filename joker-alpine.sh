@@ -144,7 +144,7 @@ addresolvconf ()
 {
   android=\$(getprop ro.build.version.release)
   if [ \${android%%.*} -lt 8 ]; then
-  [ \$(command -v getprop) ] && getprop | sed -n -e 's/^\[net\.dns.\]: \[\(.*\)\]/\1/p' | sed '/^\s*$/d' | sed 's/^/nameserver /' > \${PREFIX}/share/TermuxAlpine/etc/resolv.conf
+  [ \$(command -v getprop) ] && getprop | sed -n -e 's/^\[net\.dns.\]: \[\(.*\)\]/\1/p' | sed '/^\s*$/d' | sed 's/^/nameserver /' > \${PREFIX}/share/jokeralpine/etc/resolv.conf
   fi
 }
 addresolvconf
