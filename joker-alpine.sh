@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
-# Copyright ©2019 by Hax4Us. All rights reserved.
+# Copyright ©2019 by joker-tmx. All rights reserved.
 #
 # Email : mojoker9999@gmail.com
 ################################################################################
